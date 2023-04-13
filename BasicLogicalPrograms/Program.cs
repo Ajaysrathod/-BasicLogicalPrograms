@@ -13,6 +13,10 @@
                     FlipCoinUC1 flipCoin = new FlipCoinUC1();
                     flipCoin.FlipCoins();
                     break;
+                case 2:
+                    LeapYearUC2 leapYear = new LeapYearUC2();
+                    leapYear.LeapYears();
+                    break;
                 default:
                     Console.WriteLine("Please enter right option");
                     break;
